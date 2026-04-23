@@ -520,7 +520,7 @@
         }
         .rectangle4{
             display: flex;
-            flex-wrap: wrap;
+             flex-wrap: wrap;
             justify-content: space-around;
             gap: 15px;
             width: 70%;
@@ -584,7 +584,7 @@
             border-radius: 8px;
         }
         .rectangle10{
-            height: 150px;
+            height: 550px;
             width: 70%;
             padding: 10PX;
             border-radius: 10px;
@@ -679,6 +679,20 @@
             margin-top: 25px;
             justify-content: center;
             gap: 10px;
+        }
+        .formulaire{
+            width: 300px ;
+            height: 90px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .formulaire h2{
+            text-align: center;
+        }
+        .formulaire label{
+            display: block;
+            margin-top: 10px;
         }
     </style>
 
@@ -847,6 +861,26 @@
     <div class="rectangle10">
       <div class="lifa"> <h1>contact</h1> <h4>Je suis ouvert aux échanges et aux opportunités qu’offre le projet académique, car ils représentent une occasion précieuse d’enrichir mes connaissances, de confronter mes idées à celles des autres et de développer de nouvelles compétences</h4>
     <button class="boutt9">
+        <form class="formulaire">
+             <h2>Contact</h2>
+
+        <label>Nom :</label>
+
+        <input type="text" placeholder="Entrez votre nom" required>
+
+        <label>Email :</label>
+
+        <input type="email" placeholder="Entrez votre email" required>
+
+        <label>Message :</label>
+
+        <textarea placeholder="Votre message"></textarea>
+
+        <button type="submit">Envoyer</button>
+
+
+          
+        </form>
         <button class="mmn1">Envoyer un Mail</button>
         <button class="mmn2"> Télécharger mon CV</button>
     </div>
